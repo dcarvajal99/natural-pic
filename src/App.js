@@ -8,7 +8,7 @@ import NotFound from "./views/NotFound";
 import Context from "./Context";
 function App() {
 
-  const endpoint = "/fotos.json";
+  const endpoint = "/natural-pic/fotos.json";
   const [fotos, setFotos] = useState([]);
   const compartirFotos = {fotos, setFotos}
 
