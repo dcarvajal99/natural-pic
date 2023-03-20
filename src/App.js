@@ -29,7 +29,7 @@ function App() {
         <NavbarApp/>
         <Routes>
           <Route path="/" element={<Home/>}/>
-          <Route path="/natual-pic/" element={<Home/>}/>
+          <Route path="/natural-pic/" element={<Home/>}/>
           <Route path="/Favoritos" element={<Favoritos/>}/>
           <Route path="/*" element={<NotFound/>}/>
         </Routes>
